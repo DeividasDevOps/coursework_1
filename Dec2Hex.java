@@ -8,9 +8,10 @@ class Dec2Hex
     public static void main(String args[])
     {
 	 Scanner input = new Scanner(System.in);
-	
+	Arg1 = 0;
 	    Boolean isNumber;
 	do { 
+		system.out.print("Enter a number");
 		if(input.hasNextInt())
 		{
 			Arg1 = input.nextInt();
