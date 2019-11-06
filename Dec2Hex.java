@@ -8,15 +8,24 @@ class Dec2Hex
     public static void main(String args[])
     {
 	 Scanner sc = new Scanner(System.in);
-	int number;
-	do {
-		System.out.println("Please enter an integer value");
-    		while (!sc.hasNextInt()) {
-       		System.out.println("That's not a correct value");
-        sc.next();
-    	}
-   	 number = sc.nextInt();
-	} while (number <= 0);
+	int number = 0;
+	    Boolean isNumber;
+	do { 
+		if(input.hasNextInt())
+		{
+			number = input.nextInt();
+			isNumber= true;	
+		}
+			else
+			{
+				System.out.println("Please Enter a number");
+				isNumber = false;
+				input.next();
+			}
+		
+		} while (!(isNumber));
+	    
+	    
 	    
         if (args.length > 0) 
         {
