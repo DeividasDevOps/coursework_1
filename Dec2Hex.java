@@ -7,28 +7,11 @@ class Dec2Hex
 
     public static void main(String args[])
     {
-	 Scanner input = new Scanner(System.in);
-	Arg1 = 0;
-	    Boolean isNumber;
-	do { 
-		system.out.print("Enter a number");
-		if(input.hasNextInt())
-		{
-			Arg1 = input.nextInt();
-			isNumber= true;	
-		}
-			else
-			{
-				System.out.println("Please Enter a number");
-				isNumber = false;
-				input.next();
-			}
-		
-		} while (!(isNumber));
+	 
 	    
 	    
 	    
-        if (args.length > 0) 
+        if (args.length > 1) 
         {
             try 
             {
