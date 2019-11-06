@@ -13,7 +13,7 @@ class Dec2Hex
 		    System.exit(1);
 	    }
 	    
-        if (args.length > 0, args == null) 
+        if (args.length > 0) 
         {
             try 
             {
