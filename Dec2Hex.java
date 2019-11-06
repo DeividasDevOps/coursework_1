@@ -7,7 +7,7 @@ class Dec2Hex
 
     public static void main(String args[])
     {
-	    if (args.length == null)
+	    if (args.length < 0)
 	    {
 		 system.err.println("Please enter a integer value.");
 		    System.exit(1);
