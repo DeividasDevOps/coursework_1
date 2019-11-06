@@ -7,7 +7,7 @@ class Dec2Hex
 
     public static void main(String args[])
     {
-	 Scanner sc = new Scanner(System.in);
+	 Scanner input = new Scanner(System.in);
 	Arg1 = 0;
 	    Boolean isNumber;
 	do { 
