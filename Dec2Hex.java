@@ -9,7 +9,7 @@ class Dec2Hex
     {
 	System.out.println("Enter a value"); 
 	 
-	     if (args.length > 0) 
+	     if (args.length== 0) 
         {
             
                 System.err.println("Please enter a value");
@@ -18,7 +18,7 @@ class Dec2Hex
             }    
 	    
 	    
-        if (args.length > 0) 
+        if (args.length > 1) 
         {
             try 
             {
