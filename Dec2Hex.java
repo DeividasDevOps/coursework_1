@@ -43,7 +43,7 @@ class Dec2Hex
          int rem, num;
 	num = Arg1;
 	String hexadecimal=""; 
-        System.out.println("erting the Decimal Value " + num + " to Hex...");
+        System.out.println("Converting the Decimal Value " + num + " to Hex...");
         
         while(num != 0)
         {
