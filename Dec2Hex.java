@@ -9,7 +9,7 @@ class Dec2Hex
     {
 	System.out.println("Enter a value"); 
 	 
-	     if (args.length == 0) 
+	     if (args.length > 0) 
         {
             
                 System.err.println("Please enter a value");
@@ -18,7 +18,7 @@ class Dec2Hex
             }    
 	    
 	    
-        if (args.length > 1) 
+        if (args.length > 0) 
         {
             try 
             {
@@ -31,7 +31,7 @@ class Dec2Hex
             {
                 System.err.println("Argument" + args[0] + " must be an integer.");
 		
-                System.exit(1);
+                System.exit(2);
             }
 		
         }
@@ -43,7 +43,7 @@ class Dec2Hex
          int rem, num;
 	num = Arg1;
 	String hexadecimal=""; 
-        System.out.println("Converting the Decimal Value " + num + " to Hex...");
+        System.out.println("Converting the  Value " + num + " to Hex...");
         
         while(num != 0)
         {
