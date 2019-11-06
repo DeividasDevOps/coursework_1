@@ -7,7 +7,13 @@ class Dec2Hex
 
     public static void main(String args[])
     {
-        if (args.length > 0) 
+	    if (args == null)
+	    {
+		 system.err.println("Please enter a integer value.");
+		    System.exit(1);
+	    }
+	    
+        if (args.length > 0, args != null) 
         {
             try 
             {
@@ -16,12 +22,10 @@ class Dec2Hex
             catch (NumberFormatException e) 
             {
                 System.err.println("Argument" + args[0] + " must be an integer.");
+		
                 System.exit(1);
             }
-		else
-	    {
-		    system.err.println("Please enter a integer value.");
-	    }
+		
         }
 	    
 
