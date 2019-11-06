@@ -7,11 +7,16 @@ class Dec2Hex
 
     public static void main(String args[])
     {
-	    if (args.length < 0)
-	    {
-		 system.err.println("Please enter a integer value.");
-		    System.exit(1);
-	    }
+	 Scanner sc = new Scanner(System.in);
+	int number;
+	do {
+		System.out.println("Please enter an integer value");
+    		while (!sc.hasNextInt()) {
+       		System.out.println("That's not a correct value");
+        sc.next();
+    	}
+   	 number = sc.nextInt();
+	} while (number <= 0);
 	    
         if (args.length > 0) 
         {
