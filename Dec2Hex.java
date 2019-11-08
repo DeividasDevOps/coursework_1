@@ -14,7 +14,7 @@ class Dec2Hex
             
                 System.err.println("Please enter a value");
 		
-                System.exit(1);
+                
             }    
 	    
 	    
