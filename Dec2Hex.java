@@ -7,13 +7,13 @@ class Dec2Hex
 
     public static void main(String args[])
     {
-	System.out.println("Enter a value"); 
+	
 	 
 	     if (args.length== 0) 
         {
             
-                System.err.println("Please enter a value");
-		
+                System.err.println("You have not entered a value, please try again.");
+		System.exit(1);
                 
             }    
 	    
