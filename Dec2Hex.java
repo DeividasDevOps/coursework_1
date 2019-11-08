@@ -7,7 +7,7 @@ class Dec2Hex
 
     public static void main(String args[])
     {
-	System.out.println("Enter a value"); 
+	System.out.println("nter a value"); 
 	 
 	 //    if (args.length== 0) 
      //   {
